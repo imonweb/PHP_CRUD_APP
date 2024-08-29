@@ -13,6 +13,9 @@ $layout = new HTML(title: 'PHP via Vite');
 		<div>+</div>
 
 		<img src="%BASE%/logo.svg" class="w-20" />
+		  <div class="container py-4 px-3 mx-auto">
+   
+    </div>
 	</div>
 
 	<div id="repos" class="text-base flex gap-10"></div>
