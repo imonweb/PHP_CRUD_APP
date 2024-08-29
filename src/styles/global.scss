@@ -2,10 +2,19 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
+// Font Awesome
+@import "@fortawesome/fontawesome-free/css/all.css";
+// @import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+// @import "@fortawesome/fontawesome-free/scss/solid.scss";
+// @import "@fortawesome/fontawesome-free/scss/brands.scss";
+// @import "@fortawesome/fontawesome-free/scss/regular.scss";
+
+// @import "@fortawesome/fontawesome-svg-core/styles.css";
+
 /*  Tailwind CSS */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
 
 a {
 	@apply underline;
