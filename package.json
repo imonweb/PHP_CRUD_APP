@@ -1,21 +1,57 @@
 {
-  "name": "php_crud_app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "sass": "^1.77.8",
-    "vite": "^5.4.2"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
-  }
+	"name": "php-vite-starter",
+	"description": "A modern vanilla PHP-Vite starter repo, utilizing vite-plugin-php",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc --noEmit && vite build",
+		"php-install": "php ./bin/composer.phar install"
+	},
+	"keywords": [
+		"php-vite-starter",
+		"vite",
+		"php",
+		"starter",
+		"template",
+		"tailwindcss",
+		"tailwind",
+		"typescript"
+	],
+	"readme": "README.md",
+	"license": "See MIT license in LICENSE",
+	"homepage": "https://github.com/nititech/php-vite-starter",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nititech/php-vite-starter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nititech/php-vite-starter/issues",
+		"email": "mail@nititech.de"
+	},
+	"author": {
+		"name": "Nikita Nitichevski",
+		"email": "nikita.n@nititech.de",
+		"url": "https://nititech.de"
+	},
+	"devDependencies": {
+		"@prettier/plugin-php": "^0.22.2",
+		"@types/node": "^22.1.0",
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.41",
+		"prettier": "^3.3.3",
+		"sass": "^1.77.8",
+		"tailwindcss": "^3.4.9",
+		"typescript": "^5.5.4",
+		"vite": "^5.4.0",
+		"vite-imagetools": "^7.0.4",
+		"vite-plugin-ejs": "^1.7.0",
+		"vite-plugin-php": "^1.0.55",
+		"vite-plugin-static-copy": "^1.0.6",
+		"vite-plugin-svgr": "^4.2.0",
+		"vite-tsconfig-paths": "^5.0.1"
+	},
+	"dependencies": {
+		"sharp": "^0.33.5"
+	}
 }
