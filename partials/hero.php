@@ -12,7 +12,7 @@ require('system/main.php');
           <h4 class="mt-2 text-primary">All Database</h4>
         </div>
         <div class="col-lg-6">
-          <button type="button" class="btn btn-primary my-2"><i class="fa-solid fa-user-plus"></i> Add New User </button>
+          <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#usermodal"><i class="fa-solid fa-user-plus"></i> Add New User </button>
           <a href="#" class="btn btn-success m1"><i class="fa-solid fa-table"></i> Export to Excel</a>
         </div>
       </div>
@@ -22,6 +22,11 @@ require('system/main.php');
         <div class="col-lg-12">
           
         <?php include('partials/table.php'); ?>
+
+        <?php include('partials/form.php'); ?>
+
+
+       
         
         </div>
       </div>
