@@ -21,9 +21,11 @@ class HTML {
 			<title><?= $this->title; ?></title>
 
 			<link href="/src/styles/global.scss" rel="stylesheet" />
+		 
+			
 			<link href="https://cdn.datatables.net/v/bs5/dt-2.1.4/datatables.min.css" rel="stylesheet">
  
-			<script src="https://cdn.datatables.net/v/bs5/dt-2.1.4/datatables.min.js"></script>
+			
 		</head>
 
 		<!-- <body class="w-screen h-screen flex items-center justify-center bg-neutral-50"> -->

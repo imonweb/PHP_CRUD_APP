@@ -22,3 +22,7 @@ $layout = new HTML(title: 'PHP CRUD App');
 </div>
 
 <script src="/src/scripts/repos.ts" type="module"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.datatables.net/v/bs5/dt-2.1.4/datatables.min.js"></script>
+<script src="/src/scripts/ajax.js"></script>
