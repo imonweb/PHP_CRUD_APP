@@ -1,4 +1,5 @@
 <?php
+require('system/db.php');
 require('system/main.php');
 
 $layout = new HTML(title: 'PHP CRUD App');
