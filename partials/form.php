@@ -5,7 +5,7 @@
               <h5 class="modal-title" id="exampleModalLabel">Add New User</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="" id="form-data" method="POST" enctype="multipart/form-data">
+            <form action="action.php" id="form-data" method="post">
 
               <div class="modal-body">
 

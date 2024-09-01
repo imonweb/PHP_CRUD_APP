@@ -53,11 +53,11 @@ class Database {
   {
     $sql = "UPDATE users SET first_name = :fname, last_name = :lname, email = :email, phone = :phone WHERE id = :id";
     $stmt = $this->conn->prepare($sql);
-    $stmt-execute(['fname'=>$fname,'lname'=>$lname,'email'=>$email,'phone'=>$phone, 'id' => $id]);
+    $stmt->execute(['fname'=>$fname,'lname'=>$lname,'email'=>$email,'phone'=>$phone, 'id' => $id]);
   }
 
   /*  delete record */
-  public function delete()
+  public function delete($id)
   {
     $sql = "DELETE FROM users WHERE id = :id";
     $stmt = $this->conn->prepare($sql);
@@ -79,5 +79,5 @@ class Database {
 
 $ob = new Database();
 // print_r( $ob->read());
-echo $ob->totalRowCount();
+// echo $ob->totalRowCount();
 

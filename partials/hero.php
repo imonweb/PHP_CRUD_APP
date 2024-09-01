@@ -9,7 +9,7 @@ require('system/main.php');
       
       <div class="row">
         <div class="col-lg-6">
-          <h4 class="mt-2 text-primary">All Database</h4>
+          <h4 class="mt-2 text-primary">All users in Database</h4>
         </div>
         <div class="col-lg-6">
           <button type="button" class="btn btn-primary my-2" data-bs-toggle="modal" data-bs-target="#usermodal"><i class="fa-solid fa-user-plus"></i> Add New User </button>
